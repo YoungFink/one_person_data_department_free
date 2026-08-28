@@ -1,4 +1,4 @@
-# The One-Man Data Department — Set-Piece Sheets
+# The Person Data Department — Set-Piece Sheets
 
 Opposition corner analysis, built from StatsBomb open data.
 
