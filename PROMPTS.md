@@ -20,7 +20,7 @@ fails, fix it there — don't carry a wrong number forward into the next step.
 ## 1. Scaffold the project
 
 **Prompt:**
-> Set up a new project called One-Man Data Department. Create this structure:
+> Set up a new project called The One-Person Data Department. Create this structure:
 > `data/`, `outputs/`, `src/`, `assets/`, `assets/fonts/`, `assets/badges/`,
 > `references/`. Don't add any code yet — just the folders, empty.
 

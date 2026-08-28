@@ -1,4 +1,4 @@
-# One-Man Data Department — Set-Piece Sheet
+# The One-Person Data Department — Set-Piece Sheet
 
 ## What this project is
 
@@ -351,7 +351,7 @@ must work either way.
 ## Project structure
 
 ```
-one-man-data-department/
+one-person-data-department/
 ├── CLAUDE.md          ← this file
 ├── references/        ← visual examples to work from
 ├── data/              ← StatsBomb data
