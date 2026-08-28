@@ -266,3 +266,22 @@ their short corner rate is genuinely sensitive to the exact threshold used —
 CLAUDE.md documents 8 of their 15 short corners sitting right at the edge of
 the 15–20 yard band, moving their league rank from 9th to 16th depending on
 the cut. That's a real property of their data, not a bug in your build.
+
+---
+
+## When the output looks wrong
+
+If a rendered sheet looks off — spacing, alignment, a line that shouldn't be
+there — don't ask Claude to "fix the spacing." Ask for a measurement instead.
+
+"Fix the spacing" gets you a report that it's fixed. Whether that report is
+true is a separate question, and often it isn't — the model is reporting its
+intent, not a checked fact. "Tell me the pixel gap between each line,
+measured on the rendered PNG" gets you an actual number, forces a real check
+against the file that was actually produced, and either confirms the fix or
+shows you it didn't work.
+
+This applies to anything visual: a cell that looks divided when it shouldn't
+be, text that looks too faint, a badge that looks the wrong size. Ask for the
+pixel dimensions, the crop, the measured font size — not the description. It
+was the single most useful technique in building this project.
