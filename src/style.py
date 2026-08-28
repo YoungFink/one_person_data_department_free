@@ -184,7 +184,7 @@ PANEL1_GRID_GAP_IN = 0.25
 # --- Branding assets (optional) --------------------------------------------
 
 PERSONAL_LOGO_PATH = ASSETS_DIR / "OTF Logo Colour.png"  # path per panel_spec.md
-STATSBOMB_LOGO_PATH = ASSETS_DIR / "Stastbomb Logo.png"
+STATSBOMB_LOGO_PATH = ASSETS_DIR / "Statsbomb Logo.png"
 
 
 def get_badge_path(team_name: str) -> Path | None:
